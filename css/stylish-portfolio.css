@@ -13,14 +13,16 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color:antiquewhite;
+   font-family:inherit;
+    color:palevioletred;
 }
 
 .text-vertical-center {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+    color:navy;
+
 }
 
 .text-vertical-center h1 {
@@ -28,6 +30,8 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+    font-family: inherit;
+    color:palevioletred;
 }
 
 /* Custom Button Styles */
@@ -156,11 +160,13 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(http://i.imgur.com/0j4hEyI.jpg)no-repeat center center scroll;
+    background: url(http://i.imgur.com/KoZme0M.jpg)no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:powderblue;
 }
 
 /* About */
@@ -185,13 +191,15 @@ hr.small {
     display: table;
     width: 100%;
     height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    color:navy;
+    background: url(http://i.imgur.com/EQN5gYl.jpg)center center / cover no-repeat scroll;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+
 
 /* Portfolio */
 
